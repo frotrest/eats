@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{try{let e=document.querySelectorAll("[data-animate]"),t=new IntersectionObserver((e,t)=>{e.forEach(e=>{if(e.isIntersecting&&e.target instanceof Element){let a=e.target.dataset.animate;e.target.classList.add("animate__animated",`animate__${a}`),t.unobserve(e.target)}})},{root:null,threshold:.1});e.forEach(e=>{t.observe(e)})}catch(e){console.log(`\u{41E}\u{448}\u{438}\u{431}\u{43A}\u{430} \u{441} \u{430}\u{43D}\u{438}\u{43C}\u{430}\u{446}\u{438}\u{44F}\u{43C}\u{438}: ${e}`)}});
+//# sourceMappingURL=eats.45f0d36d.js.map
