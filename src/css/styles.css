@@ -211,15 +211,17 @@
   border-radius: 10px;
   border: none;
   background: none;
+  transition: color 0.3s ease;
+}
+.buy .buy-content .footer-buttons__item:hover {
+  cursor: pointer;
+  color: #c6fa0c;
 }
 .buy .buy-content .footer-buttons__item:nth-child(1) {
   background: #FA4A0C;
 }
 .buy .buy-content .footer-buttons__item:nth-child(2) {
   border: 1px solid #FFF;
-}
-.buy .buy-content .footer-buttons:hover {
-  cursor: pointer;
 }
 
 body {
